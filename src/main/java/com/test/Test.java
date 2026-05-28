@@ -1,6 +1,7 @@
 package com.test;
 
 import com.test.block.ModBlocks;
+import com.test.item.ModItemGroups;
 import com.test.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class Test implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }

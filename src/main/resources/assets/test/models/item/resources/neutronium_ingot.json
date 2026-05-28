@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "test:item/resource_diamond_lattice"
+    "layer0": "test:item/resources/neutronium_ingot"
   }
 }

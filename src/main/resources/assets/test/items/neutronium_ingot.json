@@ -1,6 +1,6 @@
 {
   "model": {
     "type" : "minecraft:model",
-    "model": "test:item/resource_diamond_lattice"
+    "model": "test:item/resources/neutronium_ingot"
   }
 }
