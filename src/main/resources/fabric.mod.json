@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "test",
+	"version": "${version}",
+	"name": "Test",
+	"description": "This is a test mod.",
+	"authors": [
+		"990PlayerGaming"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/test/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.test.Test"
+		],
+		"fabric-datagen": [
+			"com.test.TestDataGenerator"
+		],
+		"client": [
+			"com.test.TestClient"
+		]
+	},
+	"mixins": [
+		"test.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
